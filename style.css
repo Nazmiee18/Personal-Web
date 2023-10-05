@@ -10,14 +10,15 @@
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #222;
+  color: #fffffe;
   background-color: #0f0e17;
+  height: 2000vh;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
-  margin: 1.2rem 2.5rem;
+  margin: 1.2rem 0.1rem;
   align-items: center;
 }
 
@@ -58,4 +59,41 @@ body {
 
 .navbar-nav ul li a:hover::after {
   transform: scale(1);
+}
+
+#hero {
+  display: flex;
+  margin: 5em 15em;
+  align-items: center;
+}
+
+#hero .hero-text {
+  max-width: 60rem;
+  width: 100%;
+  /* text-align: center; */
+  /* line-height: 2em; */
+}
+
+#hero .hero-text > h1 {
+  margin-bottom: 0.6em;
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 5px #a7a9be;
+}
+
+#hero .hero-text > p {
+  letter-spacing: 0.1em;
+  font-size: 1.3rem;
+  line-height: 2em;
+  color: #a7a9be;
+}
+
+#hero .hero-text > a {
+  line-height: 1.5em;
+  color: #fffffe;
+  font-size: 1.3rem;
+}
+
+#hero .hero-text a:hover {
+  color: #ff8906;
 }
