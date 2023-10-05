@@ -118,3 +118,8 @@ body {
 .contact img:nth-child(3) {
   width: 2.5rem;
 }
+
+.contact img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
