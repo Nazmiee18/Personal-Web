@@ -12,7 +12,6 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   color: #fffffe;
   background-color: #0f0e17;
-  height: 2000vh;
 }
 
 .navbar {
@@ -98,7 +97,7 @@ body {
   color: #ff8906;
 }
 
-.contact {
+#contact {
   display: flex;
   flex-direction: column;
   margin-left: 3rem;
@@ -106,20 +105,20 @@ body {
   top: 29rem;
 }
 
-.contact img:nth-child(1) {
+#contact img:nth-child(1) {
   padding: 0.3rem 0px;
   width: 3rem;
 }
 
-.contact img:nth-child(2) {
+#contact img:nth-child(2) {
   width: 2.5rem;
 }
 
-.contact img:nth-child(3) {
+#contact img:nth-child(3) {
   width: 2.5rem;
 }
 
-.contact img:hover {
+#contact img:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -171,7 +170,7 @@ body {
 }
 
 .card-text span:nth-of-type(2) {
-  margin-left: 18rem;
+  margin-left: 15rem;
 }
 
 .card2 {
@@ -198,7 +197,7 @@ body {
 }
 
 .card2 .card-text span:nth-of-type(2) {
-  margin-left: 13.7rem;
+  margin-left: 11rem;
 }
 
 .card3 {
@@ -233,4 +232,71 @@ body {
 
 #blog > a:hover {
   color: #ff8906;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px 0px;
+  align-items: center;
+  grid-gap: 30px;
+  color: #fffffe;
+  place-items: center;
+  padding: 10px 180px;
+}
+
+.card-porto {
+  background-color: #fffffe;
+  width: 25vw;
+  border-radius: 24px;
+  padding-bottom: 20px;
+}
+
+.card-img img {
+  width: 25vw;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  filter: drop-shadow(0px 5px 4px #0f0e17);
+}
+
+.card-info a {
+  padding: 20px 10px;
+  color: #0f0e17;
+}
+
+.card-info a > p,
+span {
+  padding: 5px 13px;
+}
+
+.card-info a > p:nth-of-type(1) {
+  font-size: 2rem;
+}
+
+.card-info a > p:nth-of-type(2) {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.card-info a > span {
+  background-color: #2e2f3e;
+  color: #fffffe;
+  font-weight: 500;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+#portofolio h1 {
+  font-size: 2rem;
+  margin-left: 240px;
+  margin-top: 200px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  color: white;
+  background-color: #2e2f3e;
+  text-align: center;
+  font-weight: bold;
 }
